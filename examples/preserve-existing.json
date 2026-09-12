@@ -1,0 +1,20 @@
+{
+  "goal": "Review the supplied Pine code for compilation problems. Preserve all trading logic, order behavior, and visual setups; explain any proposed fix before changing behavior.",
+  "taskMode": "validate_code",
+  "baseCode": "REPLACE_WITH_YOUR_AUTHORIZED_PINE_CODE",
+  "preservation": {
+    "preserveEntireBase": true,
+    "preserveLogic": true,
+    "preserveOrderBehavior": true,
+    "preserveVisualSetups": true,
+    "allowedChangeScope": [
+      "Compilation fixes that do not change behavior"
+    ]
+  },
+  "output": {
+    "includeFullCode": true,
+    "includeReport": true,
+    "pineVersion": "preserve"
+  }
+}
+

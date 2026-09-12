@@ -1,0 +1,10 @@
+{
+  "goal": "Build a new Pine Script v6 indicator: plot a 20-period simple moving average; mark a long setup when a confirmed bar closes across it from below, and a short setup when a confirmed bar closes across it from above. No trade orders. Explain the calculations.",
+  "taskMode": "build_indicator",
+  "output": {
+    "includeFullCode": true,
+    "includeReport": true,
+    "pineVersion": "v6"
+  }
+}
+

@@ -1,12 +1,12 @@
-# PrimeSync Studio MCP
+# PrimeSync AI Studio MCP
 
-Documentation and example requests for PrimeSync Studio's hosted Model Context Protocol (MCP) integration.
+Documentation and example requests for PrimeSync AI Studio's hosted Model Context Protocol (MCP) integration.
 
 - Studio: [ai.primesync.me](https://ai.primesync.me)
 - Project: [primesync.me](https://primesync.me)
 - Project-designated MCP endpoint: `https://ai.primesync.me/mcp/v1`
 
-PrimeSync Studio helps a connected AI work on strategy and indicator design, preservation of existing logic, TradingView trade-export analysis, optimization, and Monte Carlo research.
+PrimeSync AI Studio helps a connected AI work on strategy and indicator design, preservation of existing logic, TradingView trade-export analysis, optimization, and Monte Carlo research.
 
 This repository contains documentation only. It does not contain the hosted server implementation or proprietary PrimeSync trading scripts.
 
@@ -26,7 +26,7 @@ Backtests must be run in a suitable external environment. Generated code and pro
 
 ## Documentation status
 
-Prepared on 2026-09-12 from the PrimeSync Studio tool declaration exposed to the documentation session. Endpoint availability, OAuth behavior, runtime outputs, and the server implementation were not verified. See the verification record for the exact evidence boundary.
+Prepared on 2026-09-12 from the PrimeSync AI Studio tool declaration exposed to the documentation session. Endpoint availability, OAuth behavior, runtime outputs, and the server implementation were not verified. See the verification record for the exact evidence boundary.
 
 No open-source license is granted by this documentation repository. No server source release is implied.
 

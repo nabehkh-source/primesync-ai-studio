@@ -12,7 +12,7 @@ After connecting, inspect the tools your client exposes. The documentation sessi
 
 Start with an explicit request such as:
 
-> Use PrimeSync Studio to design a new Pine Script v6 indicator from the rules I provide. List any missing rules before implementation. Do not import a previous strategy or create a profile.
+> Use PrimeSync AI Studio to design a new Pine Script v6 indicator from the rules I provide. List any missing rules before implementation. Do not import a previous strategy or create a profile.
 
 ## Troubleshooting
 

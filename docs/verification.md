@@ -4,7 +4,7 @@ Documentation snapshot: 2026-09-12.
 
 | Item | Status | Evidence |
 | --- | --- | --- |
-| Tool name and input contract | Observed | Connected PrimeSync Studio tool declaration |
+| Tool name and input contract | Observed | Connected PrimeSync AI Studio tool declaration |
 | Current-request and preservation behavior | Declared | Tool description and input fields; not runtime-tested |
 | No submitted-code execution or broker trading | Declared | Tool description; not independently audited |
 | No strategy-code storage | Declared | Tool description; logs and retention not inspected |

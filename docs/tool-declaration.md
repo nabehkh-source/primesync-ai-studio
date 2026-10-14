@@ -2,9 +2,9 @@
 
 Captured from the connected integration on 2026-09-12. The connector wrapper name in this snapshot is client-specific; it is not a server URL or standalone SDK.
 
-Tools for working with PrimeSync Studio.
+Tools for working with PrimeSync AI Studio.
 
-Primary current-request-first action for an entirely new strategy, a new indicator, trading experiments and models, isolated code repair without logic changes, indicator/strategy conversion with optional identical-arrow-and-level preservation, PnL/win-rate/drawdown/robustness optimization, universal cross-asset research, standalone Monte Carlo, and validation of fresh TradingView results. Profiles are created only when explicitly requested. The tool never forces old PrimeSync versions into a new request, stores strategy code, executes submitted code, contacts brokers, or places trades. This tool is part of plugin `PrimeSync Studio`.
+Primary current-request-first action for an entirely new strategy, a new indicator, trading experiments and models, isolated code repair without logic changes, indicator/strategy conversion with optional identical-arrow-and-level preservation, PnL/win-rate/drawdown/robustness optimization, universal cross-asset research, standalone Monte Carlo, and validation of fresh TradingView results. Profiles are created only when explicitly requested. The tool never forces old PrimeSync versions into a new request, stores strategy code, executes submitted code, contacts brokers, or places trades. This tool is part of plugin `PrimeSync AI Studio`.
 
 exec tool declaration:
 ```ts

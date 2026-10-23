@@ -1,4 +1,6 @@
-# PrimeSync AI Studio MCP
+# PrimeSync AI Studio
+
+<img src="primesync-ai-studio-logo.png" alt="PrimeSync AI Studio" width="128" height="128">
 
 Documentation and example requests for PrimeSync AI Studio's hosted Model Context Protocol (MCP) integration.
 
@@ -8,7 +10,7 @@ Documentation and example requests for PrimeSync AI Studio's hosted Model Contex
 
 PrimeSync AI Studio helps a connected AI work on strategy and indicator design, preservation of existing logic, TradingView trade-export analysis, optimization, and Monte Carlo research.
 
-This repository contains documentation only. It does not contain the hosted server implementation or proprietary PrimeSync trading scripts.
+This repository contains public documentation and an experimental DeepSeek Harness configuration bundle. It does not contain the hosted server implementation or proprietary PrimeSync trading scripts.
 
 ## Start here
 
@@ -17,6 +19,10 @@ This repository contains documentation only. It does not contain the hosted serv
 3. Choose an [example request](examples/README.md).
 4. Follow the [research workflow](docs/workflow.md).
 5. Review [privacy and security](SECURITY.md) and [verification status](docs/verification.md).
+
+## DeepSeek Harness preview
+
+An installable preview is available for DeepSeek Harness. Read the [setup and verification guide](docs/deepseek-harness.md) before installing. Full customer OAuth sign-in and end-to-end tool execution remain unverified; this is not a DeepSeek endorsement or a production compatibility claim.
 
 ## Scope and limitations
 

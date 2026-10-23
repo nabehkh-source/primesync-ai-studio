@@ -1,0 +1,21 @@
+- insert:
+    - id: primesync-ai-studio
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: primesync
+        transport: stdio
+        command: npx
+        args:
+          - --yes
+          - mcp-remote@0.15.2
+          - https://ai.primesync.me/mcp/v1
+          - --transport
+          - http-only
+          - --resource
+          - https://ai.primesync.me/mcp/v1
+          - --auth-timeout
+          - '300'
+          - --static-oauth-client-metadata
+          - '{"client_name":"PrimeSync AI Studio for DeepSeek Harness","token_endpoint_auth_method":"none"}'
+        toolCallTimeoutMs: 300000
+        failOnStartupError: false

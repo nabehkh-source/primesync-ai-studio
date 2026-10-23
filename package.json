@@ -1,0 +1,45 @@
+{
+  "name": "dsh-primesync-ai-studio",
+  "version": "0.1.0-preview.1",
+  "description": "PrimeSync AI Studio MCP integration for DeepSeek Harness (experimental OAuth bridge).",
+  "type": "module",
+  "license": "UNLICENSED",
+  "author": "Nabeh Kheir",
+  "homepage": "https://ai.primesync.me",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nabehkh-source/primesync-studio-mcp.git"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "mcp",
+    "primesync",
+    "tradingview"
+  ],
+  "files": [
+    "cordis.patch.yml",
+    "docs/deepseek-harness.md",
+    "README.md",
+    "SECURITY.md",
+    "primesync-ai-studio-logo.png",
+    "docs/en.json"
+  ],
+  "engines": {
+    "node": ">=22",
+    "dsh": "0.2.1-rc.2"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "peerDependencies": {
+    "@deepseek-ai/dsh-mcp-client": "0.2.1-rc.2"
+  },
+  "icon": "primesync-ai-studio-logo.png",
+  "exports": {
+    "./package.json": "./package.json",
+    "./locale/*.json": "./docs/*.json"
+  }
+}

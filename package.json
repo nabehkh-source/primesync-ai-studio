@@ -8,7 +8,7 @@
   "homepage": "https://ai.primesync.me",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nabehkh-source/primesync-studio-mcp.git"
+    "url": "git+https://github.com/nabehkh-source/primesync-ai-studio.git"
   },
   "keywords": [
     "dsh-plugin",

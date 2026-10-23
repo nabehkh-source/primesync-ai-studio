@@ -14,7 +14,7 @@ This bundle connects DeepSeek Harness to the existing hosted Studio MCP service.
 ## Installation
 
 ```sh
-dsh plugin --profile web add github:nabehkh-source/primesync-studio-mcp
+dsh plugin --profile web add github:nabehkh-source/primesync-ai-studio
 ```
 
 The package is distributed through GitHub; it is not published to npm. It contains a configuration patch only and requires no build script. The patch uses the official `@deepseek-ai/dsh-mcp-client` and invokes the third-party `mcp-remote` bridge pinned to 0.15.2. On first launch, npx downloads that bridge and its dependencies. Review those dependencies before installing.
